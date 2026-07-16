@@ -1,0 +1,13 @@
+Common DHCP options:
+
+Option 3: Router option. It specifies the gateway address to be assigned to the client.
+Option 6: DNS server option. It specifies the DNS server IP address to be assigned to the client.
+Option 33: Static route option. It specifies a list of classful static routes (the destination addresses in these static routes are classful) that a client should add to its routing table. If Option 121 exists, Option 33 is ignored.
+Option 51: IP address lease option.
+Option 53: DHCP message type option. It identifies the type of the DHCP message.
+Option 55: Parameter request list option. It is used by a DHCP client to request specified configuration parameters. The option contains values that correspond to the parameters requested by the client.
+Option 60: Vendor class identifier option. It is used by a DHCP client to identify its vendor, and by a DHCP server to distinguish DHCP clients by vendor class and assign specific IP addresses for the DHCP clients.
+Option 66: TFTP server name option. It specifies a TFTP server to be assigned to the client.
+Option 67: Bootfile name option. It specifies the bootfile name to be assigned to the client.
+Option 121: Classless route option. It specifies a list of classless static routes (the destination addresses in these static routes are classless) that the requesting client should add to its routing table.
+Option 150: TFTP server IP address option. It specifies the TFTP server IP address to be assigned to the client.
